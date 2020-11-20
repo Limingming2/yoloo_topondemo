@@ -1,0 +1,6 @@
+framework module YLGamingSDK {
+  umbrella header "YLGamingSDK.h"
+
+  export *
+  module * { export * }
+}
