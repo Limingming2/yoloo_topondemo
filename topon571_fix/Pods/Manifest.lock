@@ -1,0 +1,24 @@
+PODS:
+  - BSBacktraceLogger (0.0.1)
+  - DoraemonKit/Core (2.0.0):
+    - BSBacktraceLogger
+    - fishhook
+  - fishhook (0.2)
+
+DEPENDENCIES:
+  - DoraemonKit/Core (~> 2.0.0)
+
+SPEC REPOS:
+  trunk:
+    - BSBacktraceLogger
+    - DoraemonKit
+    - fishhook
+
+SPEC CHECKSUMS:
+  BSBacktraceLogger: 06b983ee93a9f87d957960e9c73d660d5966b447
+  DoraemonKit: 9e923599e28d0b61f1c6de4aef2c2d669b30abb7
+  fishhook: ea19933abfe8f2f52c55fd8b6e2718467d3ebc89
+
+PODFILE CHECKSUM: cfb579350b4255f901cb2716a29379648f066409
+
+COCOAPODS: 1.10.0
