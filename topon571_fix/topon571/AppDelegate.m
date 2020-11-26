@@ -12,7 +12,7 @@
 #import "ViewController.h"
 #import <WebKit/WebKit.h>
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
-
+#import <DoraemonKit/DoraemonKit.h>
 
 @interface AppDelegate ()
 
@@ -28,6 +28,9 @@
     [[ATAPI sharedInstance]
      startWithAppID:@""
      appKey:@"" error:nil];
+    
+    [[DoraemonManager shareInstance] install];
+    
     return YES;
 }
 

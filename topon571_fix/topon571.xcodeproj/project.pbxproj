@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,9 +53,7 @@
 		BA49151F256812C40027E03C /* AnyThinkSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914FA256812C30027E03C /* AnyThinkSplash.framework */; };
 		BA491520256812C40027E03C /* AnyThinkRewardedVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914FB256812C30027E03C /* AnyThinkRewardedVideo.framework */; };
 		BA491521256812C40027E03C /* AnyThinkNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914FC256812C30027E03C /* AnyThinkNative.framework */; };
-		BA491522256812C40027E03C /* WindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914FE256812C30027E03C /* WindSDK.framework */; };
 		BA491523256812C40027E03C /* AnyThinkSigmobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914FF256812C30027E03C /* AnyThinkSigmobAdapter.framework */; };
-		BA491524256812C40027E03C /* Sigmob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA491500256812C30027E03C /* Sigmob.bundle */; };
 		BA491525256812C40027E03C /* MTGSDKBidding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491502256812C30027E03C /* MTGSDKBidding.framework */; };
 		BA491526256812C40027E03C /* MTGSDKInterActive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491503256812C30027E03C /* MTGSDKInterActive.framework */; };
 		BA491527256812C40027E03C /* MTGSDKNativeAdvanced.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491504256812C30027E03C /* MTGSDKNativeAdvanced.framework */; };
@@ -73,6 +71,8 @@
 		BA491533256812C40027E03C /* BUAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA491512256812C40027E03C /* BUAdSDK.bundle */; };
 		BA491536256812E30027E03C /* KSAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914EC256812C30027E03C /* KSAdSDK.framework */; };
 		BA491537256812E30027E03C /* KSAdSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914EC256812C30027E03C /* KSAdSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BAACBE4F256FBBE100FD1602 /* Sigmob.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAACBE4D256FBBE100FD1602 /* Sigmob.bundle */; };
+		BAACBE50256FBBE100FD1602 /* WindSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAACBE4E256FBBE100FD1602 /* WindSDK.framework */; };
 		BAAD49AB254FBA1400E8D709 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD49AA254FBA1400E8D709 /* AppDelegate.m */; };
 		BAAD49B1254FBA1400E8D709 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAD49B0254FBA1400E8D709 /* ViewController.m */; };
 		BAAD49B4254FBA1400E8D709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAAD49B2254FBA1400E8D709 /* Main.storyboard */; };
@@ -171,9 +171,7 @@
 		BA4914FA256812C30027E03C /* AnyThinkSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkSplash.framework; sourceTree = "<group>"; };
 		BA4914FB256812C30027E03C /* AnyThinkRewardedVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkRewardedVideo.framework; sourceTree = "<group>"; };
 		BA4914FC256812C30027E03C /* AnyThinkNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkNative.framework; sourceTree = "<group>"; };
-		BA4914FE256812C30027E03C /* WindSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindSDK.framework; sourceTree = "<group>"; };
 		BA4914FF256812C30027E03C /* AnyThinkSigmobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkSigmobAdapter.framework; sourceTree = "<group>"; };
-		BA491500256812C30027E03C /* Sigmob.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Sigmob.bundle; sourceTree = "<group>"; };
 		BA491502256812C30027E03C /* MTGSDKBidding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKBidding.framework; sourceTree = "<group>"; };
 		BA491503256812C30027E03C /* MTGSDKInterActive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterActive.framework; sourceTree = "<group>"; };
 		BA491504256812C30027E03C /* MTGSDKNativeAdvanced.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKNativeAdvanced.framework; sourceTree = "<group>"; };
@@ -189,6 +187,8 @@
 		BA491510256812C40027E03C /* AnyThinkPangleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkPangleAdapter.framework; sourceTree = "<group>"; };
 		BA491511256812C40027E03C /* BUFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUFoundation.framework; sourceTree = "<group>"; };
 		BA491512256812C40027E03C /* BUAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BUAdSDK.bundle; sourceTree = "<group>"; };
+		BAACBE4D256FBBE100FD1602 /* Sigmob.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Sigmob.bundle; sourceTree = "<group>"; };
+		BAACBE4E256FBBE100FD1602 /* WindSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WindSDK.framework; sourceTree = "<group>"; };
 		BAAD49A6254FBA1400E8D709 /* topon571.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = topon571.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAAD49A9254FBA1400E8D709 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAAD49AA254FBA1400E8D709 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -217,7 +217,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA491522256812C40027E03C /* WindSDK.framework in Frameworks */,
 				BA3ED87A25552641008E2C02 /* UMDevice.framework in Frameworks */,
 				BA3ED87F25552641008E2C02 /* YLGamingSDK.framework in Frameworks */,
 				BA491527256812C40027E03C /* MTGSDKNativeAdvanced.framework in Frameworks */,
@@ -247,6 +246,7 @@
 				BA491515256812C40027E03C /* Godzippa.framework in Frameworks */,
 				BA49152E256812C40027E03C /* MTGSDKInterstitialVideo.framework in Frameworks */,
 				BA491530256812C40027E03C /* BUAdSDK.framework in Frameworks */,
+				BAACBE50256FBBE100FD1602 /* WindSDK.framework in Frameworks */,
 				BA3ED86F25552641008E2C02 /* UMAnalyticsGame.framework in Frameworks */,
 				BA491513256812C40027E03C /* AnyThinkKuaiShouAdapter.framework in Frameworks */,
 				BA49152B256812C40027E03C /* MTGSDK.framework in Frameworks */,
@@ -286,7 +286,6 @@
 				3DD4F08D0FF0A0873DBE50D8 /* Pods-topon571.debug.xcconfig */,
 				5D5A5EDF28C3770D2CA04230 /* Pods-topon571.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -461,9 +460,9 @@
 		BA4914FD256812C30027E03C /* sigmob */ = {
 			isa = PBXGroup;
 			children = (
-				BA4914FE256812C30027E03C /* WindSDK.framework */,
+				BAACBE4D256FBBE100FD1602 /* Sigmob.bundle */,
+				BAACBE4E256FBBE100FD1602 /* WindSDK.framework */,
 				BA4914FF256812C30027E03C /* AnyThinkSigmobAdapter.framework */,
-				BA491500256812C30027E03C /* Sigmob.bundle */,
 			);
 			path = sigmob;
 			sourceTree = "<group>";
@@ -685,6 +684,7 @@
 				BA3ED86C25552641008E2C02 /* thirdparties.meta in Resources */,
 				BA3ED87E25552641008E2C02 /* common.meta in Resources */,
 				BAAD49B9254FBA1600E8D709 /* LaunchScreen.storyboard in Resources */,
+				BAACBE4F256FBBE100FD1602 /* Sigmob.bundle in Resources */,
 				BA3ED87225552641008E2C02 /* UTDID.framework.meta in Resources */,
 				BAAD49B6254FBA1600E8D709 /* Assets.xcassets in Resources */,
 				BA3ED87025552641008E2C02 /* UMAnalyticsGame.framework.meta in Resources */,
@@ -705,7 +705,6 @@
 				BA3ED86725552641008E2C02 /* umcommonlog_ios_2.0.0.meta in Resources */,
 				BA3ED87525552641008E2C02 /* UMCommon.framework.meta in Resources */,
 				BA3ED86925552641008E2C02 /* UMCommonLog.bundle in Resources */,
-				BA491524256812C40027E03C /* Sigmob.bundle in Resources */,
 				BA3ED86E25552641008E2C02 /* game_ios_7.2.2+G.meta in Resources */,
 				BA3ED87325552641008E2C02 /* thirdparties_ios_1.0.5.meta in Resources */,
 				BA3ED88225552641008E2C02 /* UMeng.meta in Resources */,
@@ -986,7 +985,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/topon571/tops",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoloogames.idledecoration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1030,7 +1032,10 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/topon571/tops",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoloogames.idledecoration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
