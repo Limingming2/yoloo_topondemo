@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1D26A32578CC7400DC6346 /* MTGSDKReward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D269A2578CC6F00DC6346 /* MTGSDKReward.framework */; };
+		BA1D26A42578CC7400DC6346 /* MTGSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D269B2578CC7200DC6346 /* MTGSDK.framework */; };
+		BA1D26A52578CC7400DC6346 /* MTGSDKInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D269C2578CC7200DC6346 /* MTGSDKInterstitial.framework */; };
+		BA1D26A62578CC7400DC6346 /* MTGSDKInterActive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D269D2578CC7300DC6346 /* MTGSDKInterActive.framework */; };
+		BA1D26A72578CC7400DC6346 /* MTGSDKSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D269E2578CC7300DC6346 /* MTGSDKSplash.framework */; };
+		BA1D26A82578CC7400DC6346 /* MTGSDKBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D269F2578CC7300DC6346 /* MTGSDKBanner.framework */; };
+		BA1D26A92578CC7400DC6346 /* MTGSDKInterstitialVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D26A02578CC7300DC6346 /* MTGSDKInterstitialVideo.framework */; };
+		BA1D26AA2578CC7400DC6346 /* MTGSDKBidding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D26A12578CC7400DC6346 /* MTGSDKBidding.framework */; };
+		BA1D26AB2578CC7400DC6346 /* MTGSDKNativeAdvanced.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1D26A22578CC7400DC6346 /* MTGSDKNativeAdvanced.framework */; };
 		BA3ED8292553D028008E2C02 /* SplashHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3ED8282553D028008E2C02 /* SplashHelper.m */; };
 		BA3ED86725552641008E2C02 /* umcommonlog_ios_2.0.0.meta in Resources */ = {isa = PBXBuildFile; fileRef = BA3ED84125552641008E2C02 /* umcommonlog_ios_2.0.0.meta */; };
 		BA3ED86825552641008E2C02 /* UMCommonLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3ED84325552641008E2C02 /* UMCommonLog.framework */; };
@@ -54,16 +63,7 @@
 		BA491520256812C40027E03C /* AnyThinkRewardedVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914FB256812C30027E03C /* AnyThinkRewardedVideo.framework */; };
 		BA491521256812C40027E03C /* AnyThinkNative.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914FC256812C30027E03C /* AnyThinkNative.framework */; };
 		BA491523256812C40027E03C /* AnyThinkSigmobAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4914FF256812C30027E03C /* AnyThinkSigmobAdapter.framework */; };
-		BA491525256812C40027E03C /* MTGSDKBidding.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491502256812C30027E03C /* MTGSDKBidding.framework */; };
-		BA491526256812C40027E03C /* MTGSDKInterActive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491503256812C30027E03C /* MTGSDKInterActive.framework */; };
-		BA491527256812C40027E03C /* MTGSDKNativeAdvanced.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491504256812C30027E03C /* MTGSDKNativeAdvanced.framework */; };
-		BA491528256812C40027E03C /* MTGSDKBanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491505256812C30027E03C /* MTGSDKBanner.framework */; };
 		BA491529256812C40027E03C /* AnyThinkMintegralAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491506256812C30027E03C /* AnyThinkMintegralAdapter.framework */; };
-		BA49152A256812C40027E03C /* MTGSDKInterstitial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491507256812C30027E03C /* MTGSDKInterstitial.framework */; };
-		BA49152B256812C40027E03C /* MTGSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491508256812C30027E03C /* MTGSDK.framework */; };
-		BA49152C256812C40027E03C /* MTGSDKSplash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491509256812C30027E03C /* MTGSDKSplash.framework */; };
-		BA49152D256812C40027E03C /* MTGSDKReward.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA49150A256812C30027E03C /* MTGSDKReward.framework */; };
-		BA49152E256812C40027E03C /* MTGSDKInterstitialVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA49150B256812C30027E03C /* MTGSDKInterstitialVideo.framework */; };
 		BA49152F256812C40027E03C /* AnyThinkGDTAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA49150D256812C30027E03C /* AnyThinkGDTAdapter.framework */; };
 		BA491530256812C40027E03C /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA49150F256812C40027E03C /* BUAdSDK.framework */; };
 		BA491531256812C40027E03C /* AnyThinkPangleAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA491510256812C40027E03C /* AnyThinkPangleAdapter.framework */; };
@@ -123,6 +123,15 @@
 		3918B7896DE1884052A92446 /* libPods-topon571.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-topon571.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DD4F08D0FF0A0873DBE50D8 /* Pods-topon571.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-topon571.debug.xcconfig"; path = "Target Support Files/Pods-topon571/Pods-topon571.debug.xcconfig"; sourceTree = "<group>"; };
 		5D5A5EDF28C3770D2CA04230 /* Pods-topon571.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-topon571.release.xcconfig"; path = "Target Support Files/Pods-topon571/Pods-topon571.release.xcconfig"; sourceTree = "<group>"; };
+		BA1D269A2578CC6F00DC6346 /* MTGSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKReward.framework; sourceTree = "<group>"; };
+		BA1D269B2578CC7200DC6346 /* MTGSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDK.framework; sourceTree = "<group>"; };
+		BA1D269C2578CC7200DC6346 /* MTGSDKInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterstitial.framework; sourceTree = "<group>"; };
+		BA1D269D2578CC7300DC6346 /* MTGSDKInterActive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterActive.framework; sourceTree = "<group>"; };
+		BA1D269E2578CC7300DC6346 /* MTGSDKSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKSplash.framework; sourceTree = "<group>"; };
+		BA1D269F2578CC7300DC6346 /* MTGSDKBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKBanner.framework; sourceTree = "<group>"; };
+		BA1D26A02578CC7300DC6346 /* MTGSDKInterstitialVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterstitialVideo.framework; sourceTree = "<group>"; };
+		BA1D26A12578CC7400DC6346 /* MTGSDKBidding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKBidding.framework; sourceTree = "<group>"; };
+		BA1D26A22578CC7400DC6346 /* MTGSDKNativeAdvanced.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKNativeAdvanced.framework; sourceTree = "<group>"; };
 		BA3ED8272553D028008E2C02 /* SplashHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashHelper.h; sourceTree = "<group>"; };
 		BA3ED8282553D028008E2C02 /* SplashHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashHelper.m; sourceTree = "<group>"; };
 		BA3ED84125552641008E2C02 /* umcommonlog_ios_2.0.0.meta */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = umcommonlog_ios_2.0.0.meta; sourceTree = "<group>"; };
@@ -172,16 +181,7 @@
 		BA4914FB256812C30027E03C /* AnyThinkRewardedVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkRewardedVideo.framework; sourceTree = "<group>"; };
 		BA4914FC256812C30027E03C /* AnyThinkNative.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkNative.framework; sourceTree = "<group>"; };
 		BA4914FF256812C30027E03C /* AnyThinkSigmobAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkSigmobAdapter.framework; sourceTree = "<group>"; };
-		BA491502256812C30027E03C /* MTGSDKBidding.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKBidding.framework; sourceTree = "<group>"; };
-		BA491503256812C30027E03C /* MTGSDKInterActive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterActive.framework; sourceTree = "<group>"; };
-		BA491504256812C30027E03C /* MTGSDKNativeAdvanced.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKNativeAdvanced.framework; sourceTree = "<group>"; };
-		BA491505256812C30027E03C /* MTGSDKBanner.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKBanner.framework; sourceTree = "<group>"; };
 		BA491506256812C30027E03C /* AnyThinkMintegralAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkMintegralAdapter.framework; sourceTree = "<group>"; };
-		BA491507256812C30027E03C /* MTGSDKInterstitial.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterstitial.framework; sourceTree = "<group>"; };
-		BA491508256812C30027E03C /* MTGSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDK.framework; sourceTree = "<group>"; };
-		BA491509256812C30027E03C /* MTGSDKSplash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKSplash.framework; sourceTree = "<group>"; };
-		BA49150A256812C30027E03C /* MTGSDKReward.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKReward.framework; sourceTree = "<group>"; };
-		BA49150B256812C30027E03C /* MTGSDKInterstitialVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MTGSDKInterstitialVideo.framework; sourceTree = "<group>"; };
 		BA49150D256812C30027E03C /* AnyThinkGDTAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkGDTAdapter.framework; sourceTree = "<group>"; };
 		BA49150F256812C40027E03C /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
 		BA491510256812C40027E03C /* AnyThinkPangleAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AnyThinkPangleAdapter.framework; sourceTree = "<group>"; };
@@ -219,46 +219,46 @@
 			files = (
 				BA3ED87A25552641008E2C02 /* UMDevice.framework in Frameworks */,
 				BA3ED87F25552641008E2C02 /* YLGamingSDK.framework in Frameworks */,
-				BA491527256812C40027E03C /* MTGSDKNativeAdvanced.framework in Frameworks */,
+				BA1D26AB2578CC7400DC6346 /* MTGSDKNativeAdvanced.framework in Frameworks */,
+				BA1D26A42578CC7400DC6346 /* MTGSDK.framework in Frameworks */,
 				BA491536256812E30027E03C /* KSAdSDK.framework in Frameworks */,
-				BA491526256812C40027E03C /* MTGSDKInterActive.framework in Frameworks */,
 				BA491519256812C40027E03C /* UnityAds.framework in Frameworks */,
-				BA49152D256812C40027E03C /* MTGSDKReward.framework in Frameworks */,
 				BA3ED87925552641008E2C02 /* UMCommon.framework in Frameworks */,
-				BA491525256812C40027E03C /* MTGSDKBidding.framework in Frameworks */,
 				BAAD4A7D254FC6E800E8D709 /* libbz2.tbd in Frameworks */,
 				BA491517256812C40027E03C /* SDWebImage.framework in Frameworks */,
-				BA49152A256812C40027E03C /* MTGSDKInterstitial.framework in Frameworks */,
 				BA491523256812C40027E03C /* AnyThinkSigmobAdapter.framework in Frameworks */,
 				BA491516256812C40027E03C /* MJExtension.framework in Frameworks */,
+				BA1D26AA2578CC7400DC6346 /* MTGSDKBidding.framework in Frameworks */,
+				BA1D26A82578CC7400DC6346 /* MTGSDKBanner.framework in Frameworks */,
 				BA491518256812C40027E03C /* AFNetworking.framework in Frameworks */,
 				BA491520256812C40027E03C /* AnyThinkRewardedVideo.framework in Frameworks */,
 				BA3ED87B25552641008E2C02 /* UMCrash.framework in Frameworks */,
 				BA49151E256812C40027E03C /* AnyThinkInterstitial.framework in Frameworks */,
 				BA3ED88525552641008E2C02 /* YLGamingSDKAdapterUMeng.framework in Frameworks */,
 				BA491532256812C40027E03C /* BUFoundation.framework in Frameworks */,
-				BA49152C256812C40027E03C /* MTGSDKSplash.framework in Frameworks */,
-				BA491528256812C40027E03C /* MTGSDKBanner.framework in Frameworks */,
 				BA49151A256812C40027E03C /* AnyThinkUnityAdsAdapter.framework in Frameworks */,
+				BA1D26A62578CC7400DC6346 /* MTGSDKInterActive.framework in Frameworks */,
+				BA1D26A52578CC7400DC6346 /* MTGSDKInterstitial.framework in Frameworks */,
 				BA491531256812C40027E03C /* AnyThinkPangleAdapter.framework in Frameworks */,
 				BA49151F256812C40027E03C /* AnyThinkSplash.framework in Frameworks */,
 				BA3ED87125552641008E2C02 /* UTDID.framework in Frameworks */,
 				BA491515256812C40027E03C /* Godzippa.framework in Frameworks */,
-				BA49152E256812C40027E03C /* MTGSDKInterstitialVideo.framework in Frameworks */,
 				BA491530256812C40027E03C /* BUAdSDK.framework in Frameworks */,
 				BAACBE50256FBBE100FD1602 /* WindSDK.framework in Frameworks */,
+				BA1D26A92578CC7400DC6346 /* MTGSDKInterstitialVideo.framework in Frameworks */,
 				BA3ED86F25552641008E2C02 /* UMAnalyticsGame.framework in Frameworks */,
 				BA491513256812C40027E03C /* AnyThinkKuaiShouAdapter.framework in Frameworks */,
-				BA49152B256812C40027E03C /* MTGSDK.framework in Frameworks */,
 				BAAD4A79254FC6DF00E8D709 /* libxml2.tbd in Frameworks */,
 				BAAD4A75254FC6D300E8D709 /* libresolv.9.tbd in Frameworks */,
 				BA49152F256812C40027E03C /* AnyThinkGDTAdapter.framework in Frameworks */,
+				BA1D26A32578CC7400DC6346 /* MTGSDKReward.framework in Frameworks */,
 				BA491521256812C40027E03C /* AnyThinkNative.framework in Frameworks */,
 				BA3ED86825552641008E2C02 /* UMCommonLog.framework in Frameworks */,
 				BAAD4A71254FC6BE00E8D709 /* libc++.tbd in Frameworks */,
 				BA49151C256812C40027E03C /* AnyThinkBanner.framework in Frameworks */,
 				BA49151D256812C40027E03C /* AnyThinkSDK.framework in Frameworks */,
 				BA491529256812C40027E03C /* AnyThinkMintegralAdapter.framework in Frameworks */,
+				BA1D26A72578CC7400DC6346 /* MTGSDKSplash.framework in Frameworks */,
 				EBFE7EAF4EF35A2449357F68 /* libPods-topon571.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,16 +470,16 @@
 		BA491501256812C30027E03C /* mintegral */ = {
 			isa = PBXGroup;
 			children = (
-				BA491502256812C30027E03C /* MTGSDKBidding.framework */,
-				BA491503256812C30027E03C /* MTGSDKInterActive.framework */,
-				BA491504256812C30027E03C /* MTGSDKNativeAdvanced.framework */,
-				BA491505256812C30027E03C /* MTGSDKBanner.framework */,
+				BA1D269B2578CC7200DC6346 /* MTGSDK.framework */,
+				BA1D269F2578CC7300DC6346 /* MTGSDKBanner.framework */,
+				BA1D26A12578CC7400DC6346 /* MTGSDKBidding.framework */,
+				BA1D269D2578CC7300DC6346 /* MTGSDKInterActive.framework */,
+				BA1D269C2578CC7200DC6346 /* MTGSDKInterstitial.framework */,
+				BA1D26A02578CC7300DC6346 /* MTGSDKInterstitialVideo.framework */,
+				BA1D26A22578CC7400DC6346 /* MTGSDKNativeAdvanced.framework */,
+				BA1D269A2578CC6F00DC6346 /* MTGSDKReward.framework */,
+				BA1D269E2578CC7300DC6346 /* MTGSDKSplash.framework */,
 				BA491506256812C30027E03C /* AnyThinkMintegralAdapter.framework */,
-				BA491507256812C30027E03C /* MTGSDKInterstitial.framework */,
-				BA491508256812C30027E03C /* MTGSDK.framework */,
-				BA491509256812C30027E03C /* MTGSDKSplash.framework */,
-				BA49150A256812C30027E03C /* MTGSDKReward.framework */,
-				BA49150B256812C30027E03C /* MTGSDKInterstitialVideo.framework */,
 			);
 			path = mintegral;
 			sourceTree = "<group>";
