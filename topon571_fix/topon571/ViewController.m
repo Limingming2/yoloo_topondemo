@@ -45,11 +45,16 @@ static NSString *const kRewardPlacement = @"";
     if ([[ATAdManager sharedManager] rewardedVideoReadyForPlacementID:kRewardPlacement]) {
         [[ATAdManager sharedManager] showRewardedVideoWithPlacementID:kRewardPlacement inViewController:self delegate:self];
     }else {
-        [self loadAd:kRewardPlacement];
+        [self loadRewardAd:kRewardPlacement];
     }
 }
 
-- (void)loadAd:(NSString *)placement {
+- (IBAction)loadAd:(id)sender
+{
+    [self loadRewardAd:kRewardPlacement];
+}
+
+- (void)loadRewardAd:(NSString *)placement {
     self.btn.titleLabel.backgroundColor = [UIColor whiteColor];
     [[ATAdManager sharedManager] loadADWithPlacementID:placement extra:@{kATAdLoadingExtraUserIDKey:@"test_user_id"} delegate:self];
 }
@@ -70,7 +75,6 @@ static NSString *const kRewardPlacement = @"";
 
 - (void)rewardedVideoDidCloseForPlacementID:(NSString *)placementID rewarded:(BOOL)rewarded extra:(NSDictionary *)extra {
     NSLog(@"topon: %@", NSStringFromSelector(_cmd));
-    [self loadAd:kRewardPlacement];
     self.btn.titleLabel.backgroundColor = [UIColor whiteColor];
 }
 
